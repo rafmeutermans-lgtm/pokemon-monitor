@@ -35,7 +35,7 @@ from bs4 import BeautifulSoup
 SITES = [
     {
         "name": "Panini BE",
-        "url": "https://www.paninibelgium.com/shp_bel_nl/panini-stickers/jeugd/pokemon.html",
+        "url": "https://www.paninibelgium.com/shp_bel_nl/panini-stickers/jeugd/harry-potter.html",
         "link_regex": r"-be01\.html$",
     },
 ]
