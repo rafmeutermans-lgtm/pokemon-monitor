@@ -2,7 +2,7 @@ name: Pokemon monitor
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # elke 10 min; GitHub kan runs enkele minuten vertragen
+    - cron: "*/5 * * * *"   # elke 5 min; GitHub kan runs enkele minuten vertragen
   workflow_dispatch:         # handmatig starten via het tabblad Actions
     inputs:
       mode:
